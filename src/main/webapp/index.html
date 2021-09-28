@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="personStyle.css">
+    </head>
+    <body>
+        <h1>Here you can controling Person App</h1>
+            <table border="2">
+                <tr>
+
+                </tr>
+            </table>
+            <table id="persontable" border="2" >
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Phone Number</th>
+                </tr>
+                <tbody id="searsh"></tbody>
+            </table>
+            <ul id="list">
+            </ul>
+
+           <form>
+             <button type="submit" id="hint" >Get All Persones</button><br>
+
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="text" id="phone" name="fname" value=""><br>
+               <button type="submit" id="add" >Add new Person</button>
+                <button type="submit" id="update" >Modify Person</button><br>
+                <label for="num">ID Number:</label><br>
+                <input type="delete" id="num" name="num" value=""><br>
+                <button type="submit" id="delelte" >Delete Person</button><br>
+          </form>
+    <script type="application/javascript" src="personScript.js"></script>
+    </body>
+</html>

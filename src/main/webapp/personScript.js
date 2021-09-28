@@ -1,6 +1,7 @@
 
   async function getAll() {
-    var response = await fetch("http://localhost:8080/dat3_startcode_war_exploded/api/person/all");
+    var url="https://www.test.alltoone.dk/person-pro/api/person/all";
+    var response = await fetch(url);
     var data = await response.json();
     let personTable = document.getElementById("searsh")
     const tabelArray = data.map(person=>
